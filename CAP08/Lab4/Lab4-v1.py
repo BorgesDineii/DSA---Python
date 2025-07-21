@@ -67,14 +67,20 @@ O   |
 
 
 # Classe
-class Hangman:
+class Hangman():
 
 	# Método Construtor
+     def __init__ (self, nome, letra):
+          self.nome = nome
+          self.letra = letra
 
 	# Método para adivinhar a letra
-	
+	def adivinhandoLetra():
+          if l in letra = nome:
+               return("Letra acertou a letra")
 	# Método para verificar se o jogo terminou
-		
+	def gameover():
+          if 
 	# Método para verificar se o jogador venceu
 		
 	# Método para não mostrar a letra no board
